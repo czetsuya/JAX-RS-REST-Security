@@ -15,9 +15,10 @@ public class ActionBean {
 	public void submit() {
 		log.debug("submit");
 
-		RestClient restClient = new RestClient("http://localhost:8080/rest-ws",
+		RestClient restClient = new RestClient("http://localhost:8080/jax-rs-security",
 				"api/rest/user-service/users/1");
 
+		System.out.println(restClient.execute());
 		log.debug("response=" + restClient.execute());
 	}
 }
