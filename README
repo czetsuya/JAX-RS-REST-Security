@@ -1,4 +1,23 @@
 Jax-RS Security Demo
-====
+=========
 
 http://localhost:8080/jax-rs-security/index.jsf
+
+To access a page with web service action:
+http://localhost:8080/jax-rs-security/index.jsf
+
+To access the web service:
+http://localhost:8080/jax-rs-security/api/rest/user-service/users/1
+
+Requirement
+----
+http://sourceforge.net/projects/resteasy/files/Resteasy%20JAX-RS/
+* Download the 3.0.6.Final version.
+* Extract
+* Copy the contents of resteasy-jboss-modules-3.0.6.Final into your JBOSS_HOME/modules folder
+
+Version
+----
+1.0
+
+[czetsuya]:http://about.me/czetsuya
